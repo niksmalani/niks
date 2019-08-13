@@ -34,7 +34,7 @@ class _PageState extends State<Page> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Hello wolrd'),
+        title: Text('Hello'),
         backgroundColor: Colors.cyan,
       ),
       backgroundColor: Colors.cyanAccent,
