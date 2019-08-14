@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
             stream: changeNameBloc._output,
           ),
           FlatButton(
-            child: Text('Next'),
+            child: Text('Next Click'),
             onPressed: () {
               setState(() {
                 if (changeNameBloc.i == (changeNameBloc.a).length - 1) {
