@@ -43,7 +43,7 @@ class _PageState extends State<Page> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            "data",
+            "hello wolrd",
             style: TextStyle(fontSize: 20),
           ),
           StreamBuilder<int>(
